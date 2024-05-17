@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S N Battries</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color:white;
+      color:black;
+      padding:5px;
+      text-align:left;
+      font-family:Algerian,sans-serif;
+    }
+
+    nav {
+      background-color:darkblue;
+      text-align:right;
+      padding:10px;
+    }
+    nav a {
+      color:pink;
+      text-decoration:overline;
+      padding: 10px;
+    }
+    nav a:hover {
+      background-color:red;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+  .home {
+      position: relative;
+      overflow:hidden;
+      color:peach;
+      text-align: center;
+      padding: 200px 60px;
+      animation: slide 80s infinite;
+    }
+    .background-images {
+      position: absolute;
+      
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      z-index: -1;
+    }
+
+
+ 
+
+    .content {
+      display: flex;
+      align-items: center;
+    }
+    .left-image {
+      width: 300px; /* Adjust according to your image size */
+      height: auto;
+      margin-right: 20px;
+    }
+    .right-content {
+      flex: 1;
+    }
+    .quotes {
+      margin-top: 50px;
+      text-align: left; /* Align quotes to the left */
+    }
+    .quotes p {
+      margin-bottom: 10px;
+    }
+    .contact {
+      margin-top: 50px;
+      text-align: left;
+    }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .product-item {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+      width: 200px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    @keyframes slide {
+      0% { left: 0; }
+      100% { left: -400%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>S N BATTERY <br>SALES AND SERVICES</h1>
+  
+    <h1 style="text-align:right;background-color:cyan;font-family:italic,sans-serif;text-decoration:underline;">
+     Power your life ,<br>with our batteries</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+  </nav>
+<h1 style="text-align:right;text-colour:red;">"We charge your world"</h1>
+
+  <div id="home" class="container home">
+
+    <div class="background-images">
+<h1 style="background-color:cyan;font-family:Bauhaus 93;text-decoration:overline;"> WELCOME TO S N BATTERY</h1>
+      <img src="C:\Users\keert\OneDrive\Desktop\nam\2.jpeg" alt="Battery Image 2" >
+
+
+</div>
+
+</div>
+
+
+     
+    <div id="home"  class="content">
+      <img src="left_image.jpg" alt="Left Image" class="left-image">
+      <div class="right-content">
+        <h2>Welcome to S N Battries</h2>
+        <div class="quotes">
+          <p>"Power your life with our batteries."</p>
+          <p>"We charge your world."</p>
+          <p>"Empowering devices since 2020."</p>
+          <p>"Quality batteries for all your needs."</p>
+        </div>
+        <div id="About" class="container">
+          <h3>Contact Us</h3>
+          <p>Email: snbatteries@example.com</p>
+          <p>Phone: +91 1234567890</p>
+        </div>
+      </div>
+    </div>
+</div>
+  <div id="products" class="container">
+    <h2>Our Products</h2>
+    <div class="product">
+      <div class="product-item">
+        <img src="battery1.jpg" alt="Battery 1">
+        <p>Product Name 1</p>
+        <p>$10.99</p>
+      </div>
+      <div class="product-item">
+        <img src="battery2.jpg" alt="Battery 2">
+        <p>Product Name 2</p>
+        <p>$12.99</p>
+      </div>
+      <!-- Add more product items here -->
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 S N Battries. All rights reserved.</p>
+  </footer>
+</body>
+</html>
